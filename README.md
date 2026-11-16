@@ -73,7 +73,7 @@ Only with guardrails: a build gate that fails on hard errors, a NEVER list per s
 
 ## Related projects
 
-- [claude-agent-fleet-monitor](https://github.com/waltermitas/claude-agent-fleet-monitor): a dead-man switch for scheduled AI agents like these.
+- [ai-agent-fleet-monitor](https://github.com/waltermitas/ai-agent-fleet-monitor): a dead-man switch for scheduled AI agents like these.
 - [watch-hunter-skill](https://github.com/waltermitas/watch-hunter-skill): scheduled AI agents that hunt underpriced watches.
 - [watch-script-skill](https://github.com/waltermitas/watch-script-skill): a YouTube script and blog writer for watch videos.
 

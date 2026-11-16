@@ -159,7 +159,7 @@ Append exactly ONE line of compact JSON to a shared `runs.jsonl` with `>>` (neve
 ```json
 {"ts":"2026-11-02T07:40","site":"example","run":"A","status":"ok","commits":["e3670b8"],"shipped":["homepage title shortened"],"gsc":{"clicks":22,"impressions":5860,"position":18.5,"window_days":28},"indexed":240,"not_indexed":279,"lighthouse_home":92,"needs_owner":["one short item per open request"]}
 ```
-`status` is `ok` (something shipped), `no-op` (finished, nothing shipped) or `fail`. Use `null` for any field not measured this run, never a guess. Keep `needs_owner` wording identical to the previous record for the same issue so you can see how long it has waited. If `indexed` dropped more than 20% against the previous record, or the status is `fail`, also raise an alert for your monitoring (see [claude-agent-fleet-monitor](https://github.com/waltermitas/claude-agent-fleet-monitor)).
+`status` is `ok` (something shipped), `no-op` (finished, nothing shipped) or `fail`. Use `null` for any field not measured this run, never a guess. Keep `needs_owner` wording identical to the previous record for the same issue so you can see how long it has waited. If `indexed` dropped more than 20% against the previous record, or the status is `fail`, also raise an alert for your monitoring (see [ai-agent-fleet-monitor](https://github.com/waltermitas/ai-agent-fleet-monitor)).
 
 ## Monthly mode
 

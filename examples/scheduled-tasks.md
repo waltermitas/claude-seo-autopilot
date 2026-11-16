@@ -20,5 +20,5 @@ run stamp, the log, the run record and closing every tab you opened, and end wit
 you changed and anything that needs the owner.
 ```
 
-Add the dead-man pings from [claude-agent-fleet-monitor](https://github.com/waltermitas/claude-agent-fleet-monitor)
+Add the dead-man pings from [ai-agent-fleet-monitor](https://github.com/waltermitas/ai-agent-fleet-monitor)
 as the first and last actions if you want to know when a run silently dies.
